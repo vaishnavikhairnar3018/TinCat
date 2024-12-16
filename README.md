@@ -1,4 +1,4 @@
-# TinCat 🐾
+# TinCat 🐾 - A lightweight and responsive frontend project.
 
 TinCat is a fun and engaging website designed for cat lovers to find their cat's purr-fect match! Explore different pricing plans, discover adorable features, and connect your feline friends.
 
