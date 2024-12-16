@@ -1,0 +1,66 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: .75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+/* Adjust overall pricing section container */
+#pricing .container {
+  max-width: 1000px; /* Make the section narrower */
+  padding: 10px; /* Adjust padding */
+}
+
+/* Adjust the header text size */
+#pricing h1.display-4 {
+  font-size: 1.75rem; /* Smaller heading */
+}
+
+#pricing p.fs-5 {
+  font-size: 1rem; /* Adjust description size */
+}
+
+/* Adjust card size */
+#pricing .card {
+  font-size: 0.875rem; /* Smaller text inside the card */
+  padding: 15px; /* Add less padding */
+}
+
+/* Card header adjustment */
+#pricing .card-header h4 {
+  font-size: 1.25rem; /* Smaller card header text */
+}
+
+/* Pricing amount text adjustment */
+#pricing .pricing-card-title {
+  font-size: 1.5rem; /* Adjust the size of price text */
+}
+
+/* Button size adjustments */
+#pricing .btn {
+  font-size: 0.875rem; /* Smaller buttons */
+  padding: 8px 12px; /* Less padding for buttons */
+}
+
